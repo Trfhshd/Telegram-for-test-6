@@ -1,13 +1,13 @@
 
 
-FROM python:3.8-slim-buster
+#FROM python:3.8-slim-buster
 
-WORKDIR /app
+#WORKDIR /app
 
-COPY requirements.txt requirements.txt
+#COPY requirements.txt requirements.txt
 
-RUN pip3 install -r requirements.txt
+#RUN pip3 install -r requirements.txt
 
-COPY..
+#COPY..
 
-CVD gunicorn app:app & python3 main.py
+#CVD gunicorn app:app & python3 main.py
